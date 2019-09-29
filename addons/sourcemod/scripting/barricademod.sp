@@ -1,3 +1,38 @@
+/************************************************************************
+*************************************************************************
+[ZPS] Barricade Mod
+Description:
+	Changes barricade health by finding the barricade entities and hooking
+    onto them and their health stats. 
+    
+    Large barricades will be changed based on the amount added to the cvar
+    while Small barricades get double the amount of health.
+    So, if barricade health is 1000, Large barricades get 1000 health while
+    Small barricades get 2000 health. This can be changed via cvar though it
+    is advised to set and not reload the plugin. 
+    
+Original author:
+    Kana
+    
+Updated by:
+    Mr. Silence
+    
+*************************************************************************
+*************************************************************************
+This plugin is free software: you can redistribute 
+it and/or modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation, either version 3 of the License, or
+later version. 
+
+This plugin is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this plugin.  If not, see <http://www.gnu.org/licenses/>.
+*************************************************************************
+*************************************************************************/
 #pragma semicolon 1
 
 #include <sourcemod>
@@ -21,7 +56,7 @@ new gBarricadeHealth = 1;
 public Plugin:myinfo = 
 {
     name = "[ZPS] Barricade Mod",
-    author = "Mr.Silence",
+    author = "Kana, Mr.Silence",
     description = "Changes barricade health and removes ability to pick them up once set.",
     version = PLUGIN_VERSION,
     url = "https://github.com/Silenci0/"

@@ -17,4 +17,4 @@ As for future features, I believe the following were supposed to have been imple
 
 I'm sure there was others, but I cannot remember them now. If you and your community are enterprising enough, I'm sure you could implement most of the above.
 
-Anyway, feel free to use the plugin/code on your ZPS server if you want. All that I ask of you is to adhere to the license and share changes made to the plugin as appropriate.
+Anyway, feel free to use the plugin/code on your ZPS server if you want. All that I ask of you is to adhere to the license and share changes made to the plugin as appropriate. Also, the plugin was compiled for use in Sourcemod 1.9 for convenience purposes. 
